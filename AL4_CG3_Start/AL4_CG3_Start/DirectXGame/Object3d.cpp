@@ -774,10 +774,10 @@ void Object3d::LoadMaterial(const std::string& directoryPath, const std::string&
 			//テクスチャ読み込み
 			LoadTexture(directoryPath, material.textrueFilename);
 		}
-
-		//ファイルを閉じる
-		file.close();
 	}
+
+	//ファイルを閉じる
+	file.close();
 }
 
 bool Object3d::Initialize()
